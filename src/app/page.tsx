@@ -7,7 +7,7 @@ export default function HomePage() {
     <Layout>
       <section className="text-center bg-deepViolet rounded-xl shadow-2xl p-8 md:p-12 max-w-3xl w-full">
         <h2 className="text-5xl md:text-6xl font-extrabold text-white mb-6 leading-tight">
-          Bienvenue dans mon univers
+          Bienvenue dans mon portfolio
         </h2>
         <p className="text-lg md:text-xl text-lightBlue mb-8">
           Développeur Fullstack passionné par la création d&apos;expériences web uniques.
