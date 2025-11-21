@@ -14,7 +14,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div className="container mx-auto flex justify-between items-center">
           {/* Site Title / Logo */}
           {/* Using text-coralMain from tailwind.config.js */}
-          <h1 className="text-3xl font-bold text-coralMain rounded-md p-2">
+          <h1 className="text-3xl font-bold text-auroraGreen rounded-md p-2">
             <Link href="/"> {/* Link to homepage */}
               Grégoire Baumann
             </Link>
