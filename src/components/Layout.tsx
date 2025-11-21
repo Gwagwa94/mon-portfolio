@@ -41,7 +41,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       {/* Using bg-nightBlueLight from tailwind.config.js */}
       <footer className="bg-nightBlueLight p-4 text-center text-gray-400 rounded-t-lg mx-auto w-11/12 md:w-4/5 lg:w-3/4 mb-4">
         <div className="container mx-auto">
-          <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+          <p>&copy; 2025 Grégoire Baumann. All rights reserved.</p>
           <p className="mt-2">
             {/* Using text-auroraGreen for links from tailwind.config.js */}
             <a href="https://linkedin.com/in/gregoire-baumann" target="_blank" className="text-auroraGreen hover:underline">
