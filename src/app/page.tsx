@@ -5,7 +5,7 @@ import React from 'react';
 export default function HomePage() {
   return (
     <Layout>
-      <section className="text-center bg-deepViolet rounded-xl shadow-2xl p-8 md:p-12 max-w-3xl w-full">
+      <section className="text-center bg-nightBlueLight rounded-xl shadow-2xl p-8 md:p-12 max-w-3xl w-full">
         <h2 className="text-5xl md:text-6xl font-extrabold text-white mb-6 leading-tight">
           Bienvenue dans mon portfolio
         </h2>

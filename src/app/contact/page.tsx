@@ -19,7 +19,7 @@ export default function ContactPage() {
                 type="text"
                 id="name"
                 name="name"
-                className="w-full p-3 rounded-md bg-nightBlueLight text-white border border-nightBlue focus:outline-none focus:ring-2 focus:ring-coralMain"
+                className="w-full p-3 rounded-md bg-nightBlue text-white border border-nightBlue focus:outline-none focus:ring-2 focus:ring-coralMain"
                 placeholder="Ton nom"
               />
             </div>
@@ -29,7 +29,7 @@ export default function ContactPage() {
                 type="email"
                 id="email"
                 name="email"
-                className="w-full p-3 rounded-md bg-nightBlueLight text-white border border-nightBlue focus:outline-none focus:ring-2 focus:ring-coralMain"
+                className="w-full p-3 rounded-md bg-nightBlue text-white border border-nightBlue focus:outline-none focus:ring-2 focus:ring-coralMain"
                 placeholder="Ton email"
               />
             </div>
@@ -39,7 +39,7 @@ export default function ContactPage() {
                 id="message"
                 name="message"
                 rows={5}
-                className="w-full p-3 rounded-md bg-nightBlueLight text-white border border-nightBlue focus:outline-none focus:ring-2 focus:ring-coralMain"
+                className="w-full p-3 rounded-md bg-nightBlue text-white border border-nightBlue focus:outline-none focus:ring-2 focus:ring-coralMain"
                 placeholder="Ton message"
               ></textarea>
             </div>

@@ -63,7 +63,7 @@ export default function ProjetsPage() {
 
   return (
     <Layout>
-      <section className="text-center bg-deepViolet rounded-xl shadow-2xl p-8 md:p-12 max-w-3xl w-full ">
+      <section className="text-center bg-nightBlueLight rounded-xl shadow-2xl p-8 md:p-12 max-w-3xl w-full ">
         <h2 className="text-5xl md:text-6xl font-extrabold text-white mb-6 leading-tight">
           Mes Projets
         </h2>
@@ -76,8 +76,8 @@ export default function ProjetsPage() {
             <h3 className="text-3xl font-bold text-white mb-4">{cat}</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
               {projects.filter(proj => proj.category === cat).map(proj =>
-                <div key={proj.name} className="bg-nightBlueLight p-6 rounded-lg shadow-md h-full flex flex-col justify-between text-center">
-                  <h3 className="text-2xl font-bold text-coralMain mb-2">{proj.name}</h3>
+                <div key={proj.name} className="bg-nightBlue p-6 rounded-lg shadow-md h-full flex flex-col justify-between text-center">
+                  <h3 className="text-2xl font-bold text-auroraGreen mb-2">{proj.name}</h3>
                   <p className="text-lightBlue text-base text-justify">
                     {proj.description}
                   </p>
