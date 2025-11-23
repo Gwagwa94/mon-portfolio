@@ -4,7 +4,7 @@ import React from 'react';
 export default function CompetencesPage() {
   return (
     <Layout>
-      <section className="text-center bg-deepViolet rounded-xl shadow-2xl p-8 md:p-12 max-w-3xl w-full">
+      <section className="text-center bg-nightBlueLight rounded-xl shadow-2xl p-8 md:p-12 max-w-3xl w-full">
         <h2 className="text-5xl md:text-6xl font-extrabold text-white mb-6 leading-tight">
           Mes Compétences
         </h2>
@@ -12,14 +12,14 @@ export default function CompetencesPage() {
           Voici un aperçu de mes compétences techniques et de mes outils préférés.
         </p>
         <div className="text-left mt-8">
-          <h3 className="text-3xl font-bold text-coralMain mb-4">Développement Frontend</h3>
+          <h3 className="text-3xl font-bold text-auroraGreen mb-4">Développement Frontend</h3>
           <ul className="list-disc list-inside text-lightBlue text-lg mb-6">
             <li>React, Next</li>
             <li>TypeScript, JavaScript</li>
             <li>HTML5, CSS3, Tailwind CSS</li>
           </ul>
 
-          <h3 className="text-3xl font-bold text-coralMain mb-4">Développement Backend</h3>
+          <h3 className="text-3xl font-bold text-auroraGreen mb-4">Développement Backend</h3>
           <ul className="list-disc list-inside text-lightBlue text-lg mb-6">
             <li>Node.js</li>
             <li>Bases de données (MySQL, Postgres)</li>
@@ -30,12 +30,12 @@ export default function CompetencesPage() {
             <li>Python</li>
           </ul>
 
-          <h3 className="text-3xl font-bold text-coralMain mb-4">DevOps</h3>
+          <h3 className="text-3xl font-bold text-auroraGreen mb-4">DevOps</h3>
           <ul className="list-disc list-inside text-lightBlue text-lg mb-6">
             <li>CI/CD</li>
           </ul>
 
-          <h3 className="text-3xl font-bold text-coralMain mb-4">Autres</h3>
+          <h3 className="text-3xl font-bold text-auroraGreen mb-4">Autres</h3>
           <ul className="list-disc list-inside text-lightBlue text-lg mb-6">
             <li>Git, GitHub, GitLab, Bitbucket</li>
             <li>Déploiement</li>
@@ -44,7 +44,7 @@ export default function CompetencesPage() {
             <li>Sécurité</li>
           </ul>
 
-          <h3 className="text-3xl font-bold text-coralMain mb-4">Réseaux</h3>
+          <h3 className="text-3xl font-bold text-auroraGreen mb-4">Réseaux</h3>
           <ul className="list-disc list-inside text-lightBlue text-lg mb-6">
             <li>Architecture des réseaux</li>
             <li>Routeurs Cisco</li>

@@ -26,7 +26,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               <li><Link href="/" className="text-white hover:text-auroraGreen transition-colors duration-300">Home</Link></li>
               <li><Link href="/projects" className="text-white hover:text-auroraGreen transition-colors duration-300">Projects</Link></li>
               <li><Link href="/skills" className="text-white hover:text-auroraGreen transition-colors duration-300">Skills</Link></li>
-              <li><Link href="/contact" className="text-white hover:text-auroraGreen transition-colors duration-300">Contact</Link></li>
+              {/*<li><Link href="/contact" className="text-white hover:text-auroraGreen transition-colors duration-300">Contact</Link></li>*/}
             </ul>
           </nav>
         </div>
