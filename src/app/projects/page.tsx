@@ -1,31 +1,18 @@
 import Layout from '@/components/Layout';
 import React from 'react';
 import CtaButton from "@/components/CtaButton";
-
-class Project {
-  name: string = "Projet alpha";
-  description: string = "";
-  link: {
-    ref: string;
-    title: string;
-  } | null = null;
-  category: Category | undefined;
-}
-
-enum Category {
-  volunteering = "Bénévolat",
-  school = "Projets scolaires",
-  personal = "Projets personnels",
-}
+import Project, {Category} from "@/types/Project";
+import Card from "@/components/Card";
 
 export default function ProjetsPage() {
   const projects: Project[] = [{
       name: "Marchés de Noël",
       description: "J'aide chaque année à l'organisation et au bon déroulement du marché de Noël de mon ancien collège.",
-      link: {
-        ref: "https://collegepadrepio.fr",
-        title: "Collège Saint Padre Pio"
-      },
+      link: null,
+      // {
+      //   ref: "https://collegepadrepio.fr",
+      //   title: "Collège Saint Padre Pio"
+      // },
       category: Category.volunteering
     },
     {
@@ -76,13 +63,7 @@ export default function ProjetsPage() {
             <h3 className="text-3xl font-bold text-white mb-4">{cat}</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
               {projects.filter(proj => proj.category === cat).map(proj =>
-                <div key={proj.name} className="bg-nightBlue p-6 rounded-lg shadow-md h-full flex flex-col justify-between text-center">
-                  <h3 className="text-2xl font-bold text-auroraGreen mb-2">{proj.name}</h3>
-                  <p className="text-lightBlue text-base text-justify">
-                    {proj.description}
-                  </p>
-                  {proj.link && <CtaButton target="_blank" href={proj.link.ref}>{proj.link.title}</CtaButton>}
-                </div>
+                <Card key={proj.name} proj={proj}/>
               )}
             </div>
           </div>
